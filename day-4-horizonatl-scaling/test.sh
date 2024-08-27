@@ -1,1 +1,3 @@
-for i in {1..10000}; do curl -s -o /dev/null -w "%{http_code}\n" http://a7c379f5aeb6f4925b747f01639dfdbb-1610325340.ap-south-1.elb.amazonaws.com/; done
+for j in {1..10}; do  for i in {1..1000}; do
+    curl -s -o /dev/null -w "%{http_code}\n" http://a0fbf831ca4a94936954790ef7a89bc4-104519041.ap-south-1.elb.amazonaws.com/ &  done
+  waitdone
