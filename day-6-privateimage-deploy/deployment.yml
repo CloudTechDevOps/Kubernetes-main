@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: 483216680875.dkr.ecr.us-east-1.amazonaws.com/frontend:6
+        image: veeranarni/hotstar
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
